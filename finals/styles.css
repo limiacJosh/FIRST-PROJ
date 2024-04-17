@@ -1,0 +1,93 @@
+body{
+    background-image: url(images/2222806.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.whole{
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px rgb(104, 104, 104);
+    background-color: rgba(0, 26, 255, 0.459);
+    margin-top: 50px;
+    
+}
+.whole:hover{
+    box-shadow: 0 0 15px 10px rgba(30, 255, 150, 0.664);
+    transition: .5s;
+}
+.below{
+    margin-left: 10px;
+    padding:0px;
+    height: fit-content;
+}
+p, button{
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    
+    font-weight:600;
+    font-size: 20px;
+}
+.friends{
+    color: rgb(14, 255, 46);
+    font-size: 13px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(0, 0, 226);
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 5px rgba(0, 132, 184, 0.678);
+}
+.main{
+    margin: auto;
+    width: fit-content;
+}
+.header{
+    font-weight: 900;
+    font-size: 150px;
+    font-family: cursive;
+    text-align: center;
+    color: rgba(22, 144, 243, 0.863);
+    text-shadow: 0 0 15px rgb(255, 52, 52);
+}
+.last{
+    text-align: right;
+    margin-top: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+aside {
+    display: block;
+    text-align: left;
+}
+
+p{
+  font-style: italic;  
+}
+.straw{
+    width: 120px;
+    margin:auto; font-weight:bold; text-align:center; border:1px;}
+footer{
+    float: right;
+}
